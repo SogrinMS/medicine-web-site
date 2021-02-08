@@ -1,0 +1,75 @@
+.card {
+    width: 280px;
+    height: 320px;
+    overflow: hidden;
+    margin-left: 15px;
+    display: block;
+    text-decoration: none;
+    font-family: 'TT Hoves';
+    color: #f9f9f9;
+    margin-bottom: 50px;
+}
+
+.card:first-child,
+.card:nth-child(5n) {
+    margin-left: 0;
+}
+
+.cardImg {
+    height: 240px;
+    overflow: hidden;
+    position: relative;
+}
+
+.imgBackground {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cardShadow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #32495E;
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+}
+.card:hover .cardShadow {
+    opacity: 0.6;
+}
+
+.imgHover {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: opacity 0.2s ease-in;
+}
+
+.card:hover .imgHover {
+    opacity: 1;
+}
+
+.description {
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+    margin-top: 0;
+    transition: all 0.2s ease-in;
+}
+
+.card:hover .description {
+    background-color: #E95258;
+    margin-top: -90px;
+}
+
+.title {
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 800;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,13 @@
+.specialists {
+    background-color: #f9f9f9;
+}
+
+.specialists__inner {
+    padding: 70px 0;
+}
+
+.specialists__cards {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}

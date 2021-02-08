@@ -1,0 +1,30 @@
+.card {
+    width: 240px;
+    margin-left: 65px;
+    margin-bottom: 50px;
+}
+
+.card:first-child,
+.card:nth-child(5n) {
+    margin-left: 0;
+}
+
+.imgCircle {
+    width: 98px;
+    height: 98px;
+    border-radius: 50px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.img {
+    width: 98px;
+    background-position-y: center;
+}
+
+.title {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 1.1;
+    margin-bottom: 10px;
+}

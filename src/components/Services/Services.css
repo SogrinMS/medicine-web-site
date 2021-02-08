@@ -1,0 +1,13 @@
+.services {
+    background-color: #32495E;
+}
+
+.services__inner {
+    padding: 70px 0;
+}
+
+.services__cards {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}

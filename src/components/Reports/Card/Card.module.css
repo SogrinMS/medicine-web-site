@@ -1,0 +1,72 @@
+.card {
+    position: relative;
+    width: 25%;
+    height: 180px;
+}
+
+.bgImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.shadow {
+    width: 100%;
+    height: 100%;
+    background-color: #32495E;
+    opacity: 0.6;
+    transition: opacity 0.1s ease-in;
+}
+
+.card:hover .shadow {
+    opacity: 0;
+}
+
+.description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    opacity: 1;
+    transition: opacity 0.1s ease-in;
+}
+
+.card:hover .description {
+    opacity: 0;
+}
+
+.play {
+    margin-bottom: 11px;
+}
+
+.text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.1;
+    cursor: default;
+}
+
+.btn {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    background-color: #32495E;
+    border-width: 2px;
+    transition: opacity 0.1s ease-in;
+}
+
+.card:hover .btn {
+    opacity: 0.6;
+}
+
+.card:hover .btn:hover {
+    /* color: #f9f9f9;
+    background-color: #32495E; */
+    opacity: 1;
+}

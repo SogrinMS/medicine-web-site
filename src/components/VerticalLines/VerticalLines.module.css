@@ -1,0 +1,14 @@
+.verticalLines {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    right: 0;
+    margin-right: 35px;
+    display: flex;
+}
+
+.line {
+    height: 100%;
+    width: 68px;
+    margin-right: 50px;
+}
