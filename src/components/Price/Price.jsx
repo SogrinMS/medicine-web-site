@@ -36,8 +36,16 @@ const Price = () => {
                                 <p className="price-table__text">Название услуги в несколько строк</p>
                                 <p className="price-table__price text--dark">3000 / час</p>
                             </div>
+                            <div className="price-table__row">
+                                <p className="price-table__text">Название услуги в несколько строк</p>
+                                <p className="price-table__price text--dark">3000 / час</p>
+                            </div>
+                            <div className="price-table__row">
+                                <p className="price-table__text">Название услуги в несколько строк</p>
+                                <p className="price-table__price text--dark">3000 / час</p>
+                            </div>
                         </div>
-                        <div className="price-table">
+                        <div className="price-table price-table__right">
                             <div className="price-table__row">
                                 <p className="price-table__title text--dark">Название услуги</p>
                                 <p className="price-table__title text--dark">Стоимость</p>
@@ -66,7 +74,7 @@ const Price = () => {
                     </div>
                 </div>
                 <div className="btn--center">
-                    <button className="btn btn--dark">Читать полностью</button>
+                    <button className="btn price-btn btn--dark">Читать полностью</button>
                 </div>
             </div>
         </section>

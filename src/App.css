@@ -17,6 +17,7 @@ body {
 }
 
 .btn {
+  display: inline-block;
   font-family: 'TT Hoves';
   font-weight: 500;
   color: #F9F9F9;
@@ -53,7 +54,7 @@ body {
   font-size: 44px;
   line-height: 1.1;
   color: #F9F9F9;
-  margin-bottom: 50px;
+  margin-bottom: 54px;
 }
 
 .text--dark {

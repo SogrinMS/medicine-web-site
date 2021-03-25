@@ -1,0 +1,22 @@
+.news__wrapper {
+    padding: 69px 15px 70px;
+}
+
+.news__row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.news__title {
+    margin-bottom: 25px;
+}
+
+.news__tabs {
+    margin-bottom: 30px;
+}
+
+.news-btn {
+    padding: 16px 38px;
+}

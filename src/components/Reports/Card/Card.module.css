@@ -29,7 +29,7 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    padding: 20px;
+    padding: 20px 20px 23px;
     opacity: 1;
     transition: opacity 0.1s ease-in;
 }
@@ -45,7 +45,7 @@
 .text {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.1;
+    line-height: 1.2;
     cursor: default;
 }
 
@@ -59,6 +59,8 @@
     background-color: #32495E;
     border-width: 2px;
     transition: opacity 0.1s ease-in;
+    padding: 20px 44px;
+    border-radius: 30px;
 }
 
 .card:hover .btn {

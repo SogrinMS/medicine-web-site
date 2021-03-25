@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: column;
     width: 50%;
-    margin-top: -71px;
+    margin-top: -75px;
     padding: 195px 100px 0 100px;
     padding-bottom: 100px;
 }
@@ -26,22 +26,23 @@
 
 .intro__title {
     font-size: 28px;
-    line-height: 1.5;
+    line-height: 1.4;
     font-weight: 800;
 }
 
 .intro__text {
     font-weight: 600;
-    margin-top: 45px;
+    margin-top: 49px;
     padding-left: 175px;
+    line-height: 17px;
 }
 
 .intro__list {
-    margin-bottom: 95px;
+    margin-bottom: 93px;
 }
 
 .intro__item {
-    margin-top: 12px;
+    margin-top: 11px;
     padding-right: 20px;
     position: relative;
 }

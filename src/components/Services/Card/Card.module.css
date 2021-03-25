@@ -1,8 +1,8 @@
 .card {
     width: 280px;
-    height: 320px;
+    height: 322px;
     overflow: hidden;
-    margin-left: 15px;
+    /* margin-left: 15px; */
     display: block;
     text-decoration: none;
     font-family: 'TT Hoves';
@@ -64,12 +64,12 @@
 
 .card:hover .description {
     background-color: #E95258;
-    margin-top: -90px;
+    margin-top: -88px;
 }
 
 .title {
     font-size: 16px;
     line-height: 1.2;
     font-weight: 800;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }

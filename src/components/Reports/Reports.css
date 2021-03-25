@@ -4,11 +4,11 @@
 
 .reports__wrapper {
     position: relative;
-    padding: 70px 0;
+    padding: 70px 15px;
 }
 
 .reports__title {
-    margin-bottom: 20px; 
+    margin-bottom: 25px; 
 }
 
 .reports-switcher {
@@ -41,5 +41,9 @@
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    margin: 50px 0;
+    margin: 45px 0 50px;
+}
+
+.reports-btn {
+    padding: 16px 36px;
 }

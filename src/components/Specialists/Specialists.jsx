@@ -43,6 +43,16 @@ const Specialists = () => {
                         title='Доктор Аблай Туркесович'
                         text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text"
                     />
+                    <Card
+                        img={spec_1}
+                        title='Доктор Аблай Туркесович'
+                        text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text"
+                    />
+                    <Card
+                        img={spec_1}
+                        title='Доктор Аблай Туркесович'
+                        text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text"
+                    />
                 </div>
                 <div className="btn--center">
                     <button className="btn btn--dark">Подробнее</button>
